@@ -10,18 +10,44 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Calcolo del prezzo del biglietto del treno</h1>
-    <div>
-        <input type="text" placeholder="Età" id="age-passenger">
+    <header class="pb-4">
+        <h1 class="text-white text-center pt-4">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    </header>
+    <main>
+        <div class="container bg-white">
+            <div class="row p-4 ">
+                <div class="col">
+                    <div>Nome e cognome</div>
+                    <input type="text">
+                </div>
+                
+                <div class="col">
+                    <div>Km da percorrere</div>
+                    <input type="text" id="number-km">
+                </div>
+    
+                <div class="col">
+                    <div>Inserisci età</div>
+                    <input type="text" id="age-passenger">
+                </div>
+            </div>
+        </div>
+        <div class="ms_title">
+            <h1 class="text-white text-center pt-4">IL TUO BIGLIETTO</h1>
+        </div>
+        <div class="container text-center bg-white pt-4">
+            <button type="button" class="btn btn-dark" id="generator-btn">Genera prezzo del biglietto</button>
+            <p id="output-ticket" class="pt-2 fs-2 text"></p>
+        </div>
+    </main>
+   
+    
+    
+    
         
-    </div>
-    <div>
-        <input type="text" placeholder="numero km" id="number-km">
         
-    </div>
-    <div>
-        <button id="generator-btn">Genera prezzo biglietto </button>
-        <p id="output-ticket"></p>
+    
+        
     
     <script src="./js/script.js"></script>
 </body>

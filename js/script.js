@@ -17,7 +17,6 @@ let km= document.getElementById('number-km').value;
   let age= document.getElementById('age-passenger').value;
   console.log('età');
   console.log(age);
-
   
   // Impostiamo le varie condizioni
   if(age < 18){
